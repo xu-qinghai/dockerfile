@@ -1,7 +1,7 @@
 #在centos上安装nginx
 FROM centos
 #标明著作人的名称和邮箱
-#MAINTAINER jiabuli 649917837@qq.com
+#MAINTAINER xqh
 #测试一下网络环境
 RUN ping -c 1 www.baidu.com
 #安装nginx必要的一些软件
