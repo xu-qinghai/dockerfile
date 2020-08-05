@@ -19,4 +19,4 @@ ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin
 
 EXPOSE 8080
 
-CMD /usr/local/apache-tomcat-9.0.37/bin/startup.sh && tail -F /url/local/apache-tomcat-9.0.37/bin/logs/catalina.out
+CMD /usr/local/apache-tomcat-9.0.37/bin/startup.sh && tail -F /usr/local/apache-tomcat-9.0.37/logs/catalina.out
